@@ -722,6 +722,19 @@
 
   /*Raoatech*/
 
+  .__flexsmail{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .__mobidown{
+    order: 2;
+  }
+
+  .__mobiup{
+    order: 1;
+  }
+
   .__textside {
     height: 100%;
     padding: 10px 10px;
@@ -760,6 +773,10 @@
 
   .__weldiv {
     height: 100%;
+  }
+
+  .__imgdiv {
+    height: 43vh;
   }
 
   
